@@ -16,6 +16,7 @@ namespace Face_Detection.Controllers
             _fullbodyclassifier = new CascadeClassifier("haarcascade_fullbody.xml");
 
         }
+        [Route("detect")]
         [HttpPost("detect")]
         public IActionResult DetectFace([FromForm] IFormFile imageFile)
         {

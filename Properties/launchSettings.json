@@ -32,7 +32,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "swagger",
+      "launchUrl": "api/v1/face/detect",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
